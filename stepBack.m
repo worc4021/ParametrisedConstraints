@@ -25,6 +25,6 @@ v = [vn;ones(size(s.F,1),1)];
 %     fprintf('The set is unbounded.\n')
 % end
 % pP = P.projection(1:(s.nX+s.nAlpha+s.nBeta),'mplp');
-[Aout, bout] = myProjection(V,v,2);
+[Aout, bout] = myProjection(V,v,s.nU);
 % Aout = pP.A;
 % bout = pP.b;
