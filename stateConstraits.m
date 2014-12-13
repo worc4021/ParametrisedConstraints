@@ -55,6 +55,11 @@ end
 % 
 % [Lam,lam] = stepBack(Vpost,vpost,sizes);
 
+fprintf('Is the terminal set in the correct halfspace (alpha,beta>-1): %d\n',...
+    isContained(Vpost,vpost,[zeros(2),-eye(2)],ones(2)));
+
+
+
 % Constant Terminal set computation. Terminal set computation is working.
 
 % V = [F*K;G*KW];
