@@ -123,7 +123,7 @@ fprintf('Is the terminal set in the correct halfspace (alpha,beta>-1): %d\n',...
 
 
 
-nHor = 3;
+nHor = 5;
 
 Lam = cell(1,nHor);
 lam = cell(1,nHor);
