@@ -1,4 +1,8 @@
 function [Aout,Bout] = linReduce(varargin)
+% [Aout,Bout] = linReduce(A) reduces {Ax<=1} with tolerance 1e-9.
+% [Aout,Bout] = linReduce(A,b) reduces {Ax<=b} with tolerance 1e-9.
+% [Aout,Bout] = linReduce(A,b,tol) reduces {Ax<=b} with tolerance tol.
+
 
 if nargin<2
     A = varargin{1};
